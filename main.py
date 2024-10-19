@@ -35,7 +35,7 @@ while True:
             break
         else:
             key_words =  clean_keywords(ad.llm_chat.invoke(reduce_prompt.format(key_words=key_words)).content)
-            print( f"Reduced key words: {key_words}")
+            print( f"Initial search returned 0 results, retrying with reduced key words: {key_words}")
     else:    
         check = ad.llm_chat.invoke(validate_prompt.format(claim=claim, report=report)).content
         print(f"Validation result: {check}")
