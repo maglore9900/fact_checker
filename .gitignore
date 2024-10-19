@@ -164,3 +164,4 @@ cython_debug/
 
 # local data
 app_index.json
+results/
