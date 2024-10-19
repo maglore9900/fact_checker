@@ -1,6 +1,6 @@
 # Fact Checker
 
-This code based relies HEAVILY on the work of [GONZOsint](https://github.com/GONZOsint/factcheckexplorer)
+This code base relies HEAVILY on the work of [GONZOsint](https://github.com/GONZOsint/factcheckexplorer)
 
 The fact claim checking is done through Google Fact Check and the google documentation for their tool is awful. Gonzo did all the heavy lifting in developing code that can effectively communicate with the Google service.
 
