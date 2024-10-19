@@ -1,0 +1,13 @@
+OPENAI_API_KEY = ''
+#LLM_TYPE will take openai, local
+LLM_TYPE = 'openai' 
+OPENAI_MODEL = 'gpt-4o-mini'
+#OLLAMA_MODEL will take any model you can load in ollama
+OLLAMA_MODEL = 'llama3.2:3b' 
+OLLAMA_URL = 'http://localhost:11434/'
+
+
+
+
+
+
