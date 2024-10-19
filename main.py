@@ -8,7 +8,7 @@ ad = adapter.Adapter(env)
 
 fact_check = FactCheckLib(language="en", num_results=50)
 
-claim = "climage change is fake"
+claim = "microsoft owns openai"
 
 extract_prompt = "Extract the keywords from the following text: {claim}. These keywords will be used to search for information in a database. Only return the key words. Do not include any other text."
 validate_prompt = """Validate the following claim: {claim} based on the following information: {report}. 
