@@ -55,8 +55,7 @@ class FactCheckLib:
                 if claim_details:
                     parsed_claims.append(claim_details)
             return parsed_claims
-        except Exception as e:
-            print(f"Error extracting info. Error: {e}")
+        except:
             return []
 
     @staticmethod
