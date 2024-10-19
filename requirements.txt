@@ -1,0 +1,6 @@
+requests
+langchain
+python-environ
+langchain_experimental
+sentence_transformers
+langchain_openai
